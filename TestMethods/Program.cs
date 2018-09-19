@@ -3,15 +3,15 @@ using Tracer_Lib;
 
 namespace TestMethods
 {
-    class Progran
+    class Program
     {
         
         static void Main(string[] args)
         {
-            MethodContainer _methodContainer = new MethodContainer();
+            MethodContainer methodContainer = new MethodContainer();
            
             //Console.WriteLine("Hello World!");
-            _methodContainer.TestMethod();
+            methodContainer.TestMethod();
         }
 
 

@@ -21,8 +21,7 @@ namespace Tracer_Lib
 
         public TraceResult GetTraceResult()
         {
-            TraceResult result = new TraceResult();
-            result.exactTime = _stopwatch.ElapsedMilliseconds;
+            var result = new TraceResult {exactTime = _stopwatch.ElapsedMilliseconds};
             return result;
         }
     }
