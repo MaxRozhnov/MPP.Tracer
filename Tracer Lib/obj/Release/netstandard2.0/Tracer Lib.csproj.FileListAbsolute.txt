@@ -1,0 +1,9 @@
+C:\Users\Max\RiderProjects\Lab Task 1\Tracer Lib\bin\Release\netstandard2.0\Tracer Lib.deps.json
+C:\Users\Max\RiderProjects\Lab Task 1\Tracer Lib\bin\Release\netstandard2.0\Tracer Lib.dll
+C:\Users\Max\RiderProjects\Lab Task 1\Tracer Lib\bin\Release\netstandard2.0\Tracer Lib.pdb
+C:\Users\Max\RiderProjects\Lab Task 1\Tracer Lib\obj\Release\netstandard2.0\Tracer Lib.csprojAssemblyReference.cache
+C:\Users\Max\RiderProjects\Lab Task 1\Tracer Lib\obj\Release\netstandard2.0\Tracer Lib.csproj.CoreCompileInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 1\Tracer Lib\obj\Release\netstandard2.0\Tracer Lib.AssemblyInfoInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 1\Tracer Lib\obj\Release\netstandard2.0\Tracer Lib.AssemblyInfo.cs
+C:\Users\Max\RiderProjects\Lab Task 1\Tracer Lib\obj\Release\netstandard2.0\Tracer Lib.dll
+C:\Users\Max\RiderProjects\Lab Task 1\Tracer Lib\obj\Release\netstandard2.0\Tracer Lib.pdb
