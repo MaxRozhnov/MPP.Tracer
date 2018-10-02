@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
 
@@ -9,6 +10,8 @@ namespace Tracer_Lib
         public string methodName;
         public long ElapsedTime;
         private readonly Stopwatch _stopwatch;
+        
+        public List<TracedMethod> childrenMethods;
 
 
         internal TracedMethod(MethodBase method)
@@ -17,6 +20,7 @@ namespace Tracer_Lib
             className = method.DeclaringType?.Name;
             ElapsedTime = 0;
             _stopwatch = new Stopwatch();
+            childrenMethods = new List<TracedMethod>();
           
         }
 
@@ -29,6 +33,11 @@ namespace Tracer_Lib
         {
            _stopwatch.Stop();
             ElapsedTime = _stopwatch.ElapsedMilliseconds;
+        }
+
+        public void AddChild(TracedMethod child)
+        {
+            childrenMethods.Add(child);
         }
         
     }

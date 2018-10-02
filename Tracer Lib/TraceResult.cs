@@ -11,19 +11,47 @@ namespace Tracer_Lib
     {
 
         private ConcurrentDictionary<int, Stack<TracedMethod>> tracedThreadsStacks;
-        private ConcurrentDictionary<int, List<TracedMethod>> tracedThreadsLists;
+        public readonly ConcurrentDictionary<int, List<TracedMethod>> TracedThreadsLists;
 
         public TraceResult()
         {
             tracedThreadsStacks = new ConcurrentDictionary<int, Stack<TracedMethod>>();
-            tracedThreadsLists = new ConcurrentDictionary<int, List<TracedMethod>>();
+            TracedThreadsLists = new ConcurrentDictionary<int, List<TracedMethod>>();
         }
         
         public void StartTracing(MethodBase method)
         {
-            int threadId = Thread.CurrentThread.ManagedThreadId;
-            TracedMethod tracedMethod;
-            tracedMethod = new TracedMethod(method);
+            int threadId = 0;
+            threadId = Thread.CurrentThread.ManagedThreadId;
+            TracedMethod tracedMethod = new TracedMethod(method);
+            
+            if (TracedThreadsLists.ContainsKey(threadId))
+            {
+                if (tracedThreadsStacks.ContainsKey(threadId))
+                {
+                    if (tracedThreadsStacks[threadId].Count == 0)
+                    {
+                        TracedThreadsLists[threadId].Add(tracedMethod);    
+                    }
+                    else
+                    {
+                        tracedThreadsStacks[threadId].Peek().AddChild(tracedMethod);    
+                    }   
+                }
+                else
+                {
+                    List<TracedMethod> methodList = new List<TracedMethod>();
+                    TracedThreadsLists.GetOrAdd(threadId, methodList);
+                    TracedThreadsLists[threadId].Add(tracedMethod);
+                }
+            }
+            else
+            {
+                List<TracedMethod> methodList = new List<TracedMethod>();
+                TracedThreadsLists.GetOrAdd(threadId, methodList);
+                TracedThreadsLists[threadId].Add(tracedMethod);
+            }
+            
 
             if (tracedThreadsStacks.ContainsKey(threadId))
             {
@@ -37,19 +65,9 @@ namespace Tracer_Lib
                 tracedMethod.StartTracing();
                 tracedThreadsStacks[threadId].Push(tracedMethod);   
             }
+   
             
-            //FIXME
-            if (tracedThreadsLists.ContainsKey(threadId))
-            {
-                tracedThreadsLists[threadId].Add(tracedMethod);
-            }
-            else
-            {
-                List<TracedMethod> methodList = new List<TracedMethod>();
-                tracedThreadsLists.GetOrAdd(threadId, methodList);
-                tracedThreadsLists[threadId].Add(tracedMethod);
-            }
-            //
+            
             
         }
 
@@ -58,7 +76,7 @@ namespace Tracer_Lib
             int threadId = Thread.CurrentThread.ManagedThreadId;
             TracedMethod tracedMethod = tracedThreadsStacks[threadId].Pop();
             tracedMethod.StopTracing();
-            Console.Write(tracedMethod.className + " " + tracedMethod.methodName + " " + tracedMethod.ElapsedTime);
+            Console.WriteLine(tracedMethod.className + " " + tracedMethod.methodName + " " + tracedMethod.ElapsedTime);
 
         }
     }

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d77326-b721-42a0-8e87-5b5e2441ce59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tracer Lib/TracedMethod.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMethods/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/TestMethods.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/TestMethods.dll" afterDir="false" />
@@ -13,12 +11,10 @@
       <change beforePath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/ResultContainer.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer Lib/TraceResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/TraceResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/Tracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/Tracer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer Lib/TracedMethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/TracedMethod.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer Lib/bin/Release/netstandard2.0/Tracer Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/bin/Release/netstandard2.0/Tracer Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer Lib/bin/Release/netstandard2.0/Tracer Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/bin/Release/netstandard2.0/Tracer Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.pdb" afterDir="false" />
     </list>
@@ -56,12 +52,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2445" />
+          <entry key="cs" value="2737" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2445" />
+          <entry key="C#" value="2737" />
         </counts>
       </usages-collector>
     </session>
@@ -71,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tracer Lib/Tracer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+            <state relative-caret-position="184">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
                 <marker date="1538478350054" expanded="false" signature="6:148" ph="..." />
                 <marker date="1538478350054" expanded="true" signature="170:2049" ph="{...}" />
@@ -92,54 +88,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tracer Lib/TracedMethod.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="289">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding>
-                <marker date="1538478163855" expanded="false" signature="6:50" ph="..." />
-                <marker date="1538478163855" expanded="true" signature="72:752" ph="{...}" />
-                <marker date="1538478163855" expanded="true" signature="104:750" ph="{...}" />
-                <marker date="1538478163855" expanded="true" signature="308:500" ph="{...}" />
-                <marker date="1538478163855" expanded="true" signature="538:590" ph="{...}" />
-                <marker date="1538478163855" expanded="true" signature="627:735" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tracer Lib/TraceResult.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-              <folding>
-                <marker date="1538481533895" expanded="true" signature="6:159" ph="..." />
-                <marker date="1538481533895" expanded="true" signature="181:2174" ph="{...}" />
-                <marker date="1538481533895" expanded="true" signature="212:2172" ph="{...}" />
-                <marker date="1538481533895" expanded="true" signature="415:609" ph="{...}" />
-                <marker date="1538481533895" expanded="true" signature="670:1812" ph="{...}" />
-                <marker date="1538481533895" expanded="true" signature="897:1036" ph="{...}" />
-                <marker date="1538481533895" expanded="true" signature="1053:1341" ph="{...}" />
-                <marker date="1538481533895" expanded="true" signature="1432:1524" ph="{...}" />
-                <marker date="1538481533895" expanded="true" signature="1541:1774" ph="{...}" />
-                <marker date="1538481533895" expanded="true" signature="1847:2166" ph="{...}" />
+                <marker date="1538492955287" expanded="true" signature="6:84" ph="..." />
+                <marker date="1538492955287" expanded="true" signature="106:1012" ph="{...}" />
+                <marker date="1538492955287" expanded="true" signature="138:1010" ph="{...}" />
+                <marker date="1538492955287" expanded="true" signature="402:650" ph="{...}" />
+                <marker date="1538492955287" expanded="true" signature="688:740" ph="{...}" />
+                <marker date="1538492955287" expanded="true" signature="777:885" ph="{...}" />
+                <marker date="1538492955287" expanded="true" signature="935:995" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tracer Lib/TraceResult.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+              <folding>
+                <marker date="1538494095519" expanded="true" signature="6:159" ph="..." />
+                <marker date="1538494095519" expanded="true" signature="181:2850" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="212:2848" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="423:617" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="678:2484" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="916:1664" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="993:1376" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="1077:1197" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="1222:1355" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="1397:1650" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="1681:1914" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="1987:2126" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="2143:2431" ph="{...}" />
+                <marker date="1538494095519" expanded="true" signature="2519:2842" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestMethods/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="364">
+              <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
               <folding>
-                <marker date="1538139831155" expanded="false" signature="6:31" ph="..." />
-                <marker date="1538139831155" expanded="true" signature="54:811" ph="{...}" />
-                <marker date="1538139831155" expanded="true" signature="74:310" ph="{...}" />
-                <marker date="1538139831155" expanded="true" signature="121:302" ph="{...}" />
-                <marker date="1538139831155" expanded="true" signature="337:809" ph="{...}" />
-                <marker date="1538139831155" expanded="true" signature="424:802" ph="{...}" />
-                <marker date="1538139831155" expanded="true" signature="604:791" ph="/* var result = _tracer.GetTraceResult(); ... */" />
+                <marker date="1538495637993" expanded="false" signature="6:31" ph="..." />
+                <marker date="1538495637993" expanded="true" signature="54:1448" ph="{...}" />
+                <marker date="1538495637993" expanded="true" signature="74:310" ph="{...}" />
+                <marker date="1538495637993" expanded="true" signature="121:302" ph="{...}" />
+                <marker date="1538495637993" expanded="true" signature="337:1446" ph="{...}" />
+                <marker date="1538495637993" expanded="true" signature="424:939" ph="{...}" />
+                <marker date="1538495637993" expanded="true" signature="623:640" ph="/* ... */" />
+                <marker date="1538495637993" expanded="true" signature="741:928" ph="/* var result = _tracer.GetTraceResult(); ... */" />
+                <marker date="1538495637993" expanded="true" signature="974:1193" ph="{...}" />
+                <marker date="1538495637993" expanded="true" signature="1233:1439" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -181,10 +185,10 @@
         <option value="$PROJECT_DIR$/Tracer Lib/ResultContainer.cs" />
         <option value="$PROJECT_DIR$/Tracer Lib/ITracer.cs" />
         <option value="$PROJECT_DIR$/Tracer Lib/ResultOutput.cs" />
-        <option value="$PROJECT_DIR$/TestMethods/Program.cs" />
-        <option value="$PROJECT_DIR$/Tracer Lib/TracedMethod.cs" />
         <option value="$PROJECT_DIR$/Tracer Lib/Tracer.cs" />
+        <option value="$PROJECT_DIR$/Tracer Lib/TracedMethod.cs" />
         <option value="$PROJECT_DIR$/Tracer Lib/TraceResult.cs" />
+        <option value="$PROJECT_DIR$/TestMethods/Program.cs" />
       </list>
     </option>
   </component>
@@ -289,12 +293,12 @@
       <workItem from="1538137699683" duration="4252000" />
       <workItem from="1538394607633" duration="43000" />
       <workItem from="1538404770931" duration="2759000" />
-      <workItem from="1538477125492" duration="3930000" />
+      <workItem from="1538477125492" duration="8794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30992000" />
+    <option name="totallyTimeSpent" value="35856000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,14 +311,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="1081" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12221553" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12221553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18565401" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36814347" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -333,6 +338,32 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12221553" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36814347" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978904" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32911393" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -349,6 +380,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TestMethods/Program.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/TestMethods/Program.cs" initialLine="34">
+            <startOffsets>
+              <option value="706" />
+            </startOffsets>
+            <endOffsets>
+              <option value="726" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -368,22 +412,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tracer Lib/ResultContainer.cs" />
     <entry file="file://$PROJECT_DIR$/Tracer Lib/ResultOutput.cs" />
-    <entry file="file://$PROJECT_DIR$/TestMethods/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding>
-            <marker date="1538139831155" expanded="false" signature="6:31" ph="..." />
-            <marker date="1538139831155" expanded="true" signature="54:811" ph="{...}" />
-            <marker date="1538139831155" expanded="true" signature="74:310" ph="{...}" />
-            <marker date="1538139831155" expanded="true" signature="121:302" ph="{...}" />
-            <marker date="1538139831155" expanded="true" signature="337:809" ph="{...}" />
-            <marker date="1538139831155" expanded="true" signature="424:802" ph="{...}" />
-            <marker date="1538139831155" expanded="true" signature="604:791" ph="/* var result = _tracer.GetTraceResult(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tracer Lib/ITracer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -395,25 +423,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tracer Lib/TracedMethod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <marker date="1538478163855" expanded="false" signature="6:50" ph="..." />
-            <marker date="1538478163855" expanded="true" signature="72:752" ph="{...}" />
-            <marker date="1538478163855" expanded="true" signature="104:750" ph="{...}" />
-            <marker date="1538478163855" expanded="true" signature="308:500" ph="{...}" />
-            <marker date="1538478163855" expanded="true" signature="538:590" ph="{...}" />
-            <marker date="1538478163855" expanded="true" signature="627:735" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tracer Lib/Tracer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+        <state relative-caret-position="184">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <marker date="1538478350054" expanded="false" signature="6:148" ph="..." />
             <marker date="1538478350054" expanded="true" signature="170:2049" ph="{...}" />
@@ -429,21 +442,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tracer Lib/TracedMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <marker date="1538492955287" expanded="true" signature="6:84" ph="..." />
+            <marker date="1538492955287" expanded="true" signature="106:1012" ph="{...}" />
+            <marker date="1538492955287" expanded="true" signature="138:1010" ph="{...}" />
+            <marker date="1538492955287" expanded="true" signature="402:650" ph="{...}" />
+            <marker date="1538492955287" expanded="true" signature="688:740" ph="{...}" />
+            <marker date="1538492955287" expanded="true" signature="777:885" ph="{...}" />
+            <marker date="1538492955287" expanded="true" signature="935:995" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tracer Lib/TraceResult.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="488">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
           <folding>
-            <marker date="1538481533895" expanded="true" signature="6:159" ph="..." />
-            <marker date="1538481533895" expanded="true" signature="181:2174" ph="{...}" />
-            <marker date="1538481533895" expanded="true" signature="212:2172" ph="{...}" />
-            <marker date="1538481533895" expanded="true" signature="415:609" ph="{...}" />
-            <marker date="1538481533895" expanded="true" signature="670:1812" ph="{...}" />
-            <marker date="1538481533895" expanded="true" signature="897:1036" ph="{...}" />
-            <marker date="1538481533895" expanded="true" signature="1053:1341" ph="{...}" />
-            <marker date="1538481533895" expanded="true" signature="1432:1524" ph="{...}" />
-            <marker date="1538481533895" expanded="true" signature="1541:1774" ph="{...}" />
-            <marker date="1538481533895" expanded="true" signature="1847:2166" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="6:159" ph="..." />
+            <marker date="1538494095519" expanded="true" signature="181:2850" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="212:2848" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="423:617" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="678:2484" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="916:1664" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="993:1376" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="1077:1197" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="1222:1355" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="1397:1650" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="1681:1914" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="1987:2126" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="2143:2431" ph="{...}" />
+            <marker date="1538494095519" expanded="true" signature="2519:2842" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestMethods/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+          <folding>
+            <marker date="1538495637993" expanded="false" signature="6:31" ph="..." />
+            <marker date="1538495637993" expanded="true" signature="54:1448" ph="{...}" />
+            <marker date="1538495637993" expanded="true" signature="74:310" ph="{...}" />
+            <marker date="1538495637993" expanded="true" signature="121:302" ph="{...}" />
+            <marker date="1538495637993" expanded="true" signature="337:1446" ph="{...}" />
+            <marker date="1538495637993" expanded="true" signature="424:939" ph="{...}" />
+            <marker date="1538495637993" expanded="true" signature="623:640" ph="/* ... */" />
+            <marker date="1538495637993" expanded="true" signature="741:928" ph="/* var result = _tracer.GetTraceResult(); ... */" />
+            <marker date="1538495637993" expanded="true" signature="974:1193" ph="{...}" />
+            <marker date="1538495637993" expanded="true" signature="1233:1439" ph="{...}" />
           </folding>
         </state>
       </provider>

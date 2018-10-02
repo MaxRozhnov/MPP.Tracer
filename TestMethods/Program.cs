@@ -24,14 +24,36 @@ namespace TestMethods
         public void TestMethod()
         {
             _tracer.StartTrace();
-            System.Threading.Thread.Sleep(1000);
-            Console.WriteLine("Done");
+            System.Threading.Thread.Sleep(100);
+            
+            InnerMethod();
+            InnerMethod();
+            InnerMethod();
+            Console.WriteLine("Parent method done");
             _tracer.StopTrace();
             
 
 //            var result = _tracer.GetTraceResult();
 //            Console.WriteLine("Method " + result.methodName + " in class " +result.className + " took " + result.exactTime + " ms");
 
+        }
+
+        public void InnerMethod()
+        {
+            _tracer.StartTrace();
+            System.Threading.Thread.Sleep(100);
+            InnerInnerMethod();
+            Console.WriteLine("Inner method done");
+            _tracer.StopTrace();
+        }
+
+        public void InnerInnerMethod()
+        {
+            _tracer.StartTrace();
+            System.Threading.Thread.Sleep(100);
+            Console.WriteLine("Inner Inner method done");
+            _tracer.StopTrace();
+            
         }
 
     }
