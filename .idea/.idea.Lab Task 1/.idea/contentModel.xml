@@ -28,6 +28,10 @@
             </e>
           </e>
         </e>
+        <e p="Serialization" t="Include">
+          <e p="ISerializer.cs" t="Include" />
+          <e p="JSONSerializer.cs" t="Include" />
+        </e>
         <e p="TracedMethod.cs" t="Include" />
         <e p="Tracer Lib.csproj" t="IncludeRecursive" />
         <e p="Tracer.cs" t="Include" />

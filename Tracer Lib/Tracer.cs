@@ -14,10 +14,11 @@ namespace Tracer_Lib
     {
         private long _currentlyTracing;
         private TraceResult _traceResult;
-        object obj;
+        private object _obj;
 
         public Tracer()
         {
+            _obj = new object();
             _traceResult = new TraceResult();
             _currentlyTracing = 0;
         }
@@ -26,7 +27,7 @@ namespace Tracer_Lib
         {    
             StackFrame frame = new StackFrame(1);
             MethodBase method = frame.GetMethod();
-            lock (obj)
+            lock (_obj)
             {
                 _currentlyTracing++;    
             }
@@ -38,7 +39,7 @@ namespace Tracer_Lib
         {    
             
             _traceResult.StopTracing();
-            lock (obj)
+            lock (_obj)
             {
                 _currentlyTracing--;    
             }

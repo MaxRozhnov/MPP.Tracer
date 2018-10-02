@@ -1,19 +1,19 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Max\\RiderProjects\\Lab Task 1\\Tracer Lib\\Tracer Lib.csproj",
-    "projectName": "Tracer Lib",
-    "projectPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 1\\Tracer Lib\\Tracer Lib.csproj",
-    "outputPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 1\\Tracer Lib\\obj\\",
+    "projectUniqueName": "C:\\Users\\Max\\RiderProjects\\Lab Task 1\\Serialization\\Serialization.csproj",
+    "projectName": "Serialization",
+    "projectPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 1\\Serialization\\Serialization.csproj",
+    "outputPath": "C:\\Users\\Max\\RiderProjects\\Lab Task 1\\Serialization\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netstandard2.0"
+      "netcoreapp2.1"
     ],
     "frameworks": {
-      "netstandard2.0": {
+      "netcoreapp2.1": {
         "projectReferences": {}
       }
     },
@@ -24,17 +24,13 @@
     }
   },
   "frameworks": {
-    "netstandard2.0": {
+    "netcoreapp2.1": {
       "dependencies": {
-        "NETStandard.Library": {
+        "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
-          "version": "[2.0.3, )",
+          "version": "[2.1.0, )",
           "autoReferenced": true
-        },
-        "Newtonsoft.Json": {
-          "target": "Package",
-          "version": "[11.0.2, )"
         }
       },
       "imports": [

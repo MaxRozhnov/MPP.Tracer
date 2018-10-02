@@ -1,5 +1,6 @@
 ﻿using System;
 using Tracer_Lib;
+using Tracer_Lib.Serialization;
 
 namespace TestMethods
 {
@@ -30,6 +31,8 @@ namespace TestMethods
             InnerMethod();
             Console.WriteLine("Parent method done");
             _tracer.StopTrace();
+            JSONSerializer ToJson = new JSONSerializer();
+            Console.WriteLine(ToJson.Serialize(_tracer.GetTraceResult()));
         }
 
         public void InnerMethod()
@@ -50,6 +53,9 @@ namespace TestMethods
             System.Threading.Thread.Sleep(100);
             Console.WriteLine("        Inner Inner method done");
             _tracer.StopTrace();
+            
+            
+            
             
         }
 
