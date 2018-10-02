@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Reflection;
 
-
 namespace Tracer_Lib
-{
-
-    //C# naming convention
-    
+{    
     public class Tracer : ITracer
     {
         private long _currentlyTracing;
@@ -48,8 +41,15 @@ namespace Tracer_Lib
 
         public TraceResult GetTraceResult()
         {
-            return _currentlyTracing == 0 ? _traceResult : null;
+            if (_currentlyTracing == 0)
+            {
+                _traceResult.CountThreadExecutionTimes();
+                return _traceResult;
+            }
+            else
+            {
+                return null;
+            }
         }
-       
     }
 }

@@ -11,11 +11,13 @@ namespace Tracer_Lib
 
         private ConcurrentDictionary<int, Stack<TracedMethod>> tracedThreadsStacks;
         public readonly ConcurrentDictionary<int, List<TracedMethod>> TracedThreadsLists;
+        public readonly ConcurrentDictionary<int, long> ThreadExecutionTimes;
 
         public TraceResult()
         {
             tracedThreadsStacks = new ConcurrentDictionary<int, Stack<TracedMethod>>();
             TracedThreadsLists = new ConcurrentDictionary<int, List<TracedMethod>>();
+            ThreadExecutionTimes = new ConcurrentDictionary<int, long>();
         }
         
         internal void StartTracing(MethodBase method)
@@ -63,10 +65,6 @@ namespace Tracer_Lib
                 tracedMethod.StartTracing();
                 tracedThreadsStacks[threadId].Push(tracedMethod);   
             }
-   
-            
-            
-            
         }
 
         internal void StopTracing()
@@ -78,6 +76,24 @@ namespace Tracer_Lib
             //TODO: Remove this later
             Console.WriteLine(tracedMethod.ClassName + " " + tracedMethod.MethodName + " " + tracedMethod.ElapsedTime);
             //--
+
+        }
+
+        internal void CountThreadExecutionTimes()
+        {
+            IEnumerable<int> keys = TracedThreadsLists.Keys;
+            foreach (var key in keys)
+            {
+                long totalThreadTime = 0;
+                var methodsInThread = TracedThreadsLists.GetOrAdd(key, new List<TracedMethod>());
+                foreach (var method in methodsInThread)
+                {
+                    totalThreadTime += method.ElapsedTime;
+                }
+
+                ThreadExecutionTimes.GetOrAdd(key, totalThreadTime);
+
+            }
 
         }
     }

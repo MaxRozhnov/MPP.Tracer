@@ -31,8 +31,8 @@ namespace TestMethods
             InnerMethod();
             Console.WriteLine("Parent method done");
             _tracer.StopTrace();
-            JSONSerializer ToJson = new JSONSerializer();
-            Console.WriteLine(ToJson.Serialize(_tracer.GetTraceResult()));
+            JSONSerializer toJson = new JSONSerializer();
+            Console.WriteLine(toJson.Serialize(_tracer.GetTraceResult()));
         }
 
         public void InnerMethod()
