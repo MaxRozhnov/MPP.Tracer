@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Reflection;
@@ -19,10 +18,9 @@ namespace Tracer_Lib
             TracedThreadsLists = new ConcurrentDictionary<int, List<TracedMethod>>();
         }
         
-        public void StartTracing(MethodBase method)
+        internal void StartTracing(MethodBase method)
         {
-            int threadId = 0;
-            threadId = Thread.CurrentThread.ManagedThreadId;
+            int threadId = Thread.CurrentThread.ManagedThreadId;
             TracedMethod tracedMethod = new TracedMethod(method);
             
             if (TracedThreadsLists.ContainsKey(threadId))
@@ -71,12 +69,15 @@ namespace Tracer_Lib
             
         }
 
-        public void StopTracing()
+        internal void StopTracing()
         {
             int threadId = Thread.CurrentThread.ManagedThreadId;
             TracedMethod tracedMethod = tracedThreadsStacks[threadId].Pop();
             tracedMethod.StopTracing();
-            Console.WriteLine(tracedMethod.className + " " + tracedMethod.methodName + " " + tracedMethod.ElapsedTime);
+            
+            //TODO: Remove this later
+            Console.WriteLine(tracedMethod.ClassName + " " + tracedMethod.MethodName + " " + tracedMethod.ElapsedTime);
+            //--
 
         }
     }

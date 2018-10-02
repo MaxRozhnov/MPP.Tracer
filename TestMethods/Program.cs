@@ -9,8 +9,6 @@ namespace TestMethods
         static void Main(string[] args)
         {
             MethodContainer methodContainer = new MethodContainer();
-
-            //Console.WriteLine("Hello World!");
             methodContainer.TestMethod();
         }
 
@@ -24,6 +22,7 @@ namespace TestMethods
         public void TestMethod()
         {
             _tracer.StartTrace();
+            Console.WriteLine("Parent method starts");
             System.Threading.Thread.Sleep(100);
             
             InnerMethod();
@@ -31,27 +30,25 @@ namespace TestMethods
             InnerMethod();
             Console.WriteLine("Parent method done");
             _tracer.StopTrace();
-            
-
-//            var result = _tracer.GetTraceResult();
-//            Console.WriteLine("Method " + result.methodName + " in class " +result.className + " took " + result.exactTime + " ms");
-
         }
 
         public void InnerMethod()
         {
+            
             _tracer.StartTrace();
+            Console.WriteLine("    Inner method starts");
             System.Threading.Thread.Sleep(100);
             InnerInnerMethod();
-            Console.WriteLine("Inner method done");
+            Console.WriteLine("    Inner method done");
             _tracer.StopTrace();
         }
 
         public void InnerInnerMethod()
         {
             _tracer.StartTrace();
+            Console.WriteLine("        Inner Inner method starts");
             System.Threading.Thread.Sleep(100);
-            Console.WriteLine("Inner Inner method done");
+            Console.WriteLine("        Inner Inner method done");
             _tracer.StopTrace();
             
         }
