@@ -28,7 +28,7 @@
             </e>
           </e>
         </e>
-        <e p="ResultContainer.cs" t="Include" />
+        <e p="TracedMethod.cs" t="Include" />
         <e p="Tracer Lib.csproj" t="IncludeRecursive" />
         <e p="Tracer.cs" t="Include" />
         <e p="TraceResult.cs" t="Include" />

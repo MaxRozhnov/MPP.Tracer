@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
+using System.Threading;
 
 namespace Tracer_Lib
 {
@@ -10,40 +12,50 @@ namespace Tracer_Lib
     
     public class Tracer : ITracer
     {
+        private long currentlyTracing;
+        private TraceResult _traceResult;
         //private readonly Stopwatch _stopwatch = new Stopwatch();
         //private Stopwatch[] _stopwatchStack;
-        private Stack _stopwatchStack = new Stack();
-        private Stack _results = new Stack();
-        private Stack _finalResults = new Stack();
-        public void StartTrace()
+
+        //private Dictionary<int, Stack> _threadStacks;
+
+        public Tracer()
         {
-            Stopwatch tempStopWatch = new Stopwatch();
-            StackTrace stackTrace = new StackTrace();
-            ResultContainer tempresult = new ResultContainer{methodName = stackTrace.GetFrame(1).GetMethod().Name, 
-                                                     className = stackTrace.GetFrame(1).GetMethod().DeclaringType.Name};
-            _results.Push(tempresult);
-            tempStopWatch.Start();
-            _stopwatchStack.Push(tempStopWatch);
+            _traceResult = new TraceResult();
+            currentlyTracing = 0;
+        }
+        
+        public void StartTrace()
+        {    
+            StackFrame frame = new StackFrame(1);
+            MethodBase method = frame.GetMethod();
+            currentlyTracing++;
+            _traceResult.StartTracing(method);
+//            Stopwatch tempStopWatch = new Stopwatch();
+//            StackTrace stackTrace = new StackTrace();
+//            ResultContainer tempresult = new ResultContainer{methodName = stackTrace.GetFrame(1).GetMethod().Name, 
+//                                                             className = stackTrace.GetFrame(1).GetMethod().DeclaringType.Name};
+//            Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
+//            _results.Push(tempresult);
+//            tempStopWatch.Start();
+//            _stopwatchStack.Push(tempStopWatch);
         }
 
         public void StopTrace()
-        {
-            Stopwatch tempStopWatch = (Stopwatch)_stopwatchStack.Pop();
-            tempStopWatch.Stop();
-            ResultContainer tempResultContainer = (ResultContainer) _results.Pop();
-            tempResultContainer.exactTime = tempStopWatch.ElapsedMilliseconds;
-            _finalResults.Push(tempResultContainer);
-            /*TODO: Record the time somewhere
-             *Interesting idea - use stack 
-             *structure for tracing results.             
-             */
+        {    
+            
+            _traceResult.StopTracing();
+            currentlyTracing--;
+//            Stopwatch tempStopWatch = (Stopwatch)_stopwatchStack.Pop();
+//            tempStopWatch.Stop();
+//            ResultContainer tempResultContainer = (ResultContainer) _results.Pop();
+//            tempResultContainer.exactTime = tempStopWatch.ElapsedMilliseconds;
+//            _finalResults.Push(tempResultContainer);
         }
 
         public TraceResult GetTraceResult()
         {
-
-            var result = new TraceResult {ResultsStack = _finalResults};
-            return result;
+            return currentlyTracing == 0 ? _traceResult : null;
         }
        
     }

@@ -27,6 +27,8 @@ namespace TestMethods
             System.Threading.Thread.Sleep(1000);
             Console.WriteLine("Done");
             _tracer.StopTrace();
+            
+
 //            var result = _tracer.GetTraceResult();
 //            Console.WriteLine("Method " + result.methodName + " in class " +result.className + " took " + result.exactTime + " ms");
 
