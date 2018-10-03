@@ -17,6 +17,11 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="TestMethods.csproj" t="IncludeRecursive" />
+        <e p="Writer" t="Include">
+          <e p="ConsoleWriter.cs" t="Include" />
+          <e p="FileWriter.cs" t="Include" />
+          <e p="IWriter.cs" t="Include" />
+        </e>
       </e>
       <e p="Tracer Lib" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -31,6 +36,7 @@
         <e p="Serialization" t="Include">
           <e p="ISerializer.cs" t="Include" />
           <e p="JSONSerializer.cs" t="Include" />
+          <e p="XMLSerializer.cs" t="Include" />
         </e>
         <e p="TracedMethod.cs" t="Include" />
         <e p="Tracer Lib.csproj" t="IncludeRecursive" />
