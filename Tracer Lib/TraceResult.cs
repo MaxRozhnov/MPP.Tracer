@@ -86,9 +86,7 @@ namespace Tracer_Lib
                 }
 
                 ThreadExecutionTimes.GetOrAdd(key, totalThreadTime);
-
             }
-
         }
     }
 }

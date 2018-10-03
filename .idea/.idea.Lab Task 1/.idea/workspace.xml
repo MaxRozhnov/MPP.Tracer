@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d77326-b721-42a0-8e87-5b5e2441ce59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMethods/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/TestMethods.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/TestMethods.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/TestMethods.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/TestMethods.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/Tracer Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/Tracer Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/Tracer Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/bin/Release/netcoreapp2.1/Tracer Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMethods/obj/Debug/netcoreapp2.1/TestMethods.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/Debug/netcoreapp2.1/TestMethods.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/Release/netcoreapp2.1/TestMethods.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/TraceResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/TraceResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/bin/Debug/netstandard2.0/Tracer Lib.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/bin/Debug/netstandard2.0/Tracer Lib.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/bin/Debug/netstandard2.0/Tracer Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/bin/Debug/netstandard2.0/Tracer Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/bin/Debug/netstandard2.0/Tracer Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/bin/Debug/netstandard2.0/Tracer Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/bin/Release/netstandard2.0/Tracer Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/bin/Release/netstandard2.0/Tracer Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/bin/Release/netstandard2.0/Tracer Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/bin/Release/netstandard2.0/Tracer Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/obj/Debug/netstandard2.0/Tracer Lib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/obj/Debug/netstandard2.0/Tracer Lib.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/obj/Debug/netstandard2.0/Tracer Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/obj/Debug/netstandard2.0/Tracer Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/obj/Debug/netstandard2.0/Tracer Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/obj/Debug/netstandard2.0/Tracer Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer Lib/obj/Release/netstandard2.0/Tracer Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Lab Task 1/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Lab Task 1/DesignTimeBuild/.dtbcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Lab Task 1/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Lab Task 1/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Lab Task 1/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Lab Task 1/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Lab Task 1/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Lab Task 1/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Lab Task 1/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Lab Task 1/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMethods/obj/TestMethods.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/TestMethods.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMethods/obj/TestMethods.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/TestMethods.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMethods/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestMethods/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TracerTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TracerTests/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TracerTests/obj/Debug/TracerTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TracerTests/obj/Debug/TracerTests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TracerTests/obj/Debug/build.force" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +24,13 @@
     <session id="-266146401">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,11 +64,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tracer Lib/Tracer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
+            <state relative-caret-position="750">
               <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding>
                 <marker date="1538509146368" expanded="false" signature="6:50" ph="..." />
-                <marker date="1538509146368" expanded="true" signature="72:1233" ph="{...}" />
                 <marker date="1538509146368" expanded="true" signature="112:1231" ph="{...}" />
                 <marker date="1538509146368" expanded="true" signature="254:388" ph="{...}" />
                 <marker date="1538509146368" expanded="true" signature="430:707" ph="{...}" />
@@ -94,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tracer Lib/TraceResult.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+            <state relative-caret-position="128">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
               <folding>
                 <marker date="1538572526747" expanded="false" signature="6:119" ph="..." />
                 <marker date="1538572526747" expanded="true" signature="141:3337" ph="{...}" />
@@ -153,11 +142,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestMethods/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+            <state relative-caret-position="600">
+              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
               <folding>
                 <marker date="1538574462466" expanded="false" signature="6:87" ph="..." />
-                <marker date="1538574462466" expanded="true" signature="110:1487" ph="{...}" />
                 <marker date="1538574462466" expanded="true" signature="130:348" ph="{...}" />
                 <marker date="1538574462466" expanded="true" signature="177:340" ph="{...}" />
                 <marker date="1538574462466" expanded="true" signature="375:1485" ph="{...}" />
@@ -288,7 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -301,11 +288,17 @@
               <item name="Lab Task 1" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Tracer Lib" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab Task 1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TracerTests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,11 +370,12 @@
       <workItem from="1538507870559" duration="4122000" />
       <workItem from="1538560749195" duration="2917000" />
       <workItem from="1538573937237" duration="1242000" />
+      <workItem from="1538588202995" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51353000" />
+    <option name="totallyTimeSpent" value="51393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,7 +390,7 @@
     <frame x="-7" y="-7" width="1721" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12582782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1270319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -508,6 +502,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tracer Lib/Tracer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <marker date="1538509146368" expanded="false" signature="6:50" ph="..." />
+            <marker date="1538509146368" expanded="true" signature="112:1231" ph="{...}" />
+            <marker date="1538509146368" expanded="true" signature="254:388" ph="{...}" />
+            <marker date="1538509146368" expanded="true" signature="430:707" ph="{...}" />
+            <marker date="1538509146368" expanded="true" signature="740:923" ph="{...}" />
+            <marker date="1538509146368" expanded="true" signature="968:1225" ph="{...}" />
+            <marker date="1538509146368" expanded="true" signature="1018:1141" ph="{...}" />
+            <marker date="1538509146368" expanded="true" signature="1158:1215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tracer Lib/Serialization/JSONSerializer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -531,6 +542,22 @@
             <marker date="1538511742663" expanded="true" signature="847:954" ph="{...}" />
             <marker date="1538511742663" expanded="true" signature="1168:1661" ph="{...}" />
             <marker date="1538511742663" expanded="true" signature="1521:1624" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestMethods/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding>
+            <marker date="1538574462466" expanded="false" signature="6:87" ph="..." />
+            <marker date="1538574462466" expanded="true" signature="130:348" ph="{...}" />
+            <marker date="1538574462466" expanded="true" signature="177:340" ph="{...}" />
+            <marker date="1538574462466" expanded="true" signature="375:1485" ph="{...}" />
+            <marker date="1538574462466" expanded="true" signature="462:1036" ph="{...}" />
+            <marker date="1538574462466" expanded="true" signature="1071:1251" ph="{...}" />
+            <marker date="1538574462466" expanded="true" signature="1291:1478" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -583,45 +610,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestMethods/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <marker date="1538574462466" expanded="false" signature="6:87" ph="..." />
-            <marker date="1538574462466" expanded="true" signature="110:1487" ph="{...}" />
-            <marker date="1538574462466" expanded="true" signature="130:348" ph="{...}" />
-            <marker date="1538574462466" expanded="true" signature="177:340" ph="{...}" />
-            <marker date="1538574462466" expanded="true" signature="375:1485" ph="{...}" />
-            <marker date="1538574462466" expanded="true" signature="462:1036" ph="{...}" />
-            <marker date="1538574462466" expanded="true" signature="1071:1251" ph="{...}" />
-            <marker date="1538574462466" expanded="true" signature="1291:1478" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tracer Lib/Tracer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <marker date="1538509146368" expanded="false" signature="6:50" ph="..." />
-            <marker date="1538509146368" expanded="true" signature="72:1233" ph="{...}" />
-            <marker date="1538509146368" expanded="true" signature="112:1231" ph="{...}" />
-            <marker date="1538509146368" expanded="true" signature="254:388" ph="{...}" />
-            <marker date="1538509146368" expanded="true" signature="430:707" ph="{...}" />
-            <marker date="1538509146368" expanded="true" signature="740:923" ph="{...}" />
-            <marker date="1538509146368" expanded="true" signature="968:1225" ph="{...}" />
-            <marker date="1538509146368" expanded="true" signature="1018:1141" ph="{...}" />
-            <marker date="1538509146368" expanded="true" signature="1158:1215" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tracer Lib/TraceResult.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        <state relative-caret-position="128">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
           <folding>
             <marker date="1538572526747" expanded="false" signature="6:119" ph="..." />
             <marker date="1538572526747" expanded="true" signature="141:3337" ph="{...}" />

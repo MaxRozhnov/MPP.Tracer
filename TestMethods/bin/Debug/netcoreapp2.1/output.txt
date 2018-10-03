@@ -1,0 +1,23 @@
+<root>
+  <thread id="1" time="715">
+    <method class="MethodContainer" name="TestMethod" time="715">
+      <method class="MethodContainer" name="InnerMethod" time="205">
+        <method class="MethodContainer" name="InnerInnerMethod" time="101" />
+      </method>
+      <method class="MethodContainer" name="InnerMethod" time="201">
+        <method class="MethodContainer" name="InnerInnerMethod" time="100" />
+      </method>
+      <method class="MethodContainer" name="InnerMethod" time="204">
+        <method class="MethodContainer" name="InnerInnerMethod" time="101" />
+      </method>
+    </method>
+  </thread>
+  <thread id="3" time="204">
+    <method class="MethodContainer" name="InnerMethod" time="204">
+      <method class="MethodContainer" name="InnerInnerMethod" time="103" />
+    </method>
+  </thread>
+  <thread id="4" time="102">
+    <method class="MethodContainer" name="InnerInnerMethod" time="102" />
+  </thread>
+</root>
