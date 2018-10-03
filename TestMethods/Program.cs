@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using Tracer_Lib;
 using Tracer_Lib.Serialization;
 
@@ -11,6 +12,7 @@ namespace TestMethods
         {
             MethodContainer methodContainer = new MethodContainer();
             methodContainer.TestMethod();
+            Console.ReadLine();
         }
 
 
@@ -23,15 +25,17 @@ namespace TestMethods
         public void TestMethod()
         {
             _tracer.StartTrace();
-            //Console.WriteLine("Parent method starts");
-            System.Threading.Thread.Sleep(100);
+            Thread thread = new Thread(InnerMethod) { IsBackground = true };
+            Thread thread2 = new Thread(InnerInnerMethod) { IsBackground = true };
             
+            thread.Start();
+            thread2.Start();
+            System.Threading.Thread.Sleep(100);
             InnerMethod();
             InnerMethod();
             InnerMethod();
-            //Console.WriteLine("Parent method done");
             _tracer.StopTrace();
-            ISerializer toXML = new XMLSerializer();
+            ISerializer toXML = new JSONSerializer();
             Console.WriteLine(toXML.Serialize(_tracer.GetTraceResult()));
         }
 
@@ -39,19 +43,15 @@ namespace TestMethods
         {
             
             _tracer.StartTrace();
-            //Console.WriteLine("    Inner method starts");
             System.Threading.Thread.Sleep(100);
             InnerInnerMethod();
-            //Console.WriteLine("    Inner method done");
             _tracer.StopTrace();
         }
 
         public void InnerInnerMethod()
         {
             _tracer.StartTrace();
-            //Console.WriteLine("        Inner Inner method starts");
             System.Threading.Thread.Sleep(100);
-            //Console.WriteLine("        Inner Inner method done");
             _tracer.StopTrace();
             
             

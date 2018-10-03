@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Reflection;
@@ -72,11 +71,6 @@ namespace Tracer_Lib
             int threadId = Thread.CurrentThread.ManagedThreadId;
             TracedMethod tracedMethod = tracedThreadsStacks[threadId].Pop();
             tracedMethod.StopTracing();
-            
-            //TODO: Remove this later
-            Console.WriteLine(tracedMethod.ClassName + " " + tracedMethod.MethodName + " " + tracedMethod.ElapsedTime);
-            //--
-
         }
 
         internal void CountThreadExecutionTimes()
