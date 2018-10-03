@@ -56,8 +56,6 @@ namespace TracerTests
             Assert.AreEqual(expectedThreadCount, threadCount);
         }
 
-
-
         private void BasicMethod()
         {
             _tracer.StartTrace();
