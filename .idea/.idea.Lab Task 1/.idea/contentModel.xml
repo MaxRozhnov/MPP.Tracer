@@ -34,7 +34,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="ITracer.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netstandard2.0" t="Include">
               <e p="Tracer Lib.AssemblyInfo.cs" t="Include" />
             </e>
@@ -58,8 +58,8 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="ru" t="Include" />
+        <e p="TracerTester.cs" t="Include" />
         <e p="TracerTests.csproj" t="IncludeRecursive" />
-        <e p="UnitTest1.cs" t="Include" />
       </e>
     </e>
   </component>
